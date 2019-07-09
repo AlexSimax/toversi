@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import styled from "styled-components"
-import { styles } from "../../../../utils"
+import { styles } from "../../../utils"
 
 import { Link } from "gatsby"
-import "../../../layout.css"
+import "../../layout.css"
 
 export default class NavbarMenu extends Component {
   state = {

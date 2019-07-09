@@ -1,16 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Navbar from "./globals/footer/navbar/Navbar"
+import Navbar from "./globals/navbar/Navbar"
 
 import { createGlobalStyle } from "styled-components"
-import Footer from "./globals/footer/footer"
 
 const Layout = ({ children }) => (
   <div>
     <GlobalStyle />
     <Navbar />
     {children}
-    <Footer />
   </div>
 )
 // Здесь надо изучить что отображается в шаблоне этом !!!

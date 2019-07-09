@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components"
-import { styles } from "../../../../utils"
+import { styles } from "../../../utils"
 
 export default class NavbarTel extends Component {
   render() {

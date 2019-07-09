@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../../../images/Logo1.svg"
+import logo from "../../../images/Logo1.svg"
 import { FaAlignRight } from "react-icons/fa"
 import styled from "styled-components"
-import { styles } from "../../../../utils"
+import { styles } from "../../../utils"
 
 export default class NavbarLogo extends Component {
   render() {
