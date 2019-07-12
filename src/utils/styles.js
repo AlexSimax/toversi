@@ -2,7 +2,9 @@ export const colors = {
   mainGreen: `#1ec515`,
   mainWhite: `#fff`,
   mainLightGrey: `#eaeaea`,
+  mainDarkGrey: `#5b5b5b`,
   mainGrey: `#434743`,
+  mainHoverDarkGrey: `#afaeae`,
   mainHoverGrey: `#ccc`,
   mainHoverBcgr: `#dee5de`,
 }

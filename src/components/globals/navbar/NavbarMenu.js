@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { styles } from "../../../utils"
 
 import { Link } from "gatsby"
-import "../../layout.css"
+// import "../../layout.css"
 
 export default class NavbarMenu extends Component {
   state = {
@@ -36,7 +36,11 @@ export default class NavbarMenu extends Component {
         {this.state.links.map(item => {
           return (
             <li key={item.id}>
-              <Link to={item.path} className="nav-link">
+              <Link
+                to={item.path}
+                className="nav-link"
+                activeStyle={{ color: "#1EC515" }}
+              >
                 {item.name}
               </Link>
             </li>
@@ -65,24 +69,24 @@ const MenuWrapper = styled.ul`
       color: ${styles.colors.mainGrey};
       background-color: ${styles.colors.mainHoverBcgr};
       padding: 0.5rem 1rem 0.5rem 1.3rem;
+     }
+    &:active {
+     color: red;
     }
-  }
-
-  height: ${props => (props.open ? "152px" : "0px")};
-  overflow: hidden;
-  ${styles.transObject({ time: "0.9s" })};
-  @media (min-width: 768px) {
-    height: auto;
-    display: flex;
-    margin: 0 50px 0 30px;
-    .nav-link:hover {
+    }
+    
+    height: ${props => (props.open ? "152px" : "0px")};
+    overflow: hidden;
+    ${styles.transObject({ time: "0.9s" })};
+    @media (min-width: 768px) {
+     height: auto;
+     display: flex;
+     margin: 0 50px 0 30px;
+     .nav-link:hover {
       background: transparent;
-      color: ${styles.colors.mainHoverGrey};
-      padding: 0.2rem 1rem 0.5rem 1rem;
-    }
-    .nav-link:active {
-      color: ${styles.colors.mainHoverGrey};
-    }
+      color: ${styles.colors.mainHoverDarkGrey};
+      padding: 0.3rem 1rem 0.5rem 1rem;
+     }
     }
   }
 `

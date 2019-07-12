@@ -30,5 +30,6 @@ const NavWrapper = styled.nav`
     align-items: center;
     justify-content: space-between;
   }
-  background: #444444;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    transparent;
 `
