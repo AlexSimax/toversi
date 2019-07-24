@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Footer from "../components/globals/Footer"
 
 import { createGlobalStyle } from "styled-components"
 
@@ -7,6 +8,7 @@ const Layout = ({ children }) => (
   <div>
     <GlobalStyle />
     {children}
+    <Footer />
   </div>
 )
 // Здесь надо изучить что отображается в шаблоне этом !!!

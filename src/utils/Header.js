@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import img from "../images/WorkspacePrinterDarker.jpg"
 import { styles } from "../utils/"
-import ServiceImg from "../images/Services.jpeg"
 
 function HomeHeader({ img, children }) {
   return <IndexHeader img={img}>{children}</IndexHeader>
@@ -15,6 +14,9 @@ const IndexHeader = styled.header`
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(${props => props.img}) center/cover fixed no-repeat;
+  @media (max-width: 768px) {
+    min-height: 80vh;
+  }
 `
 const DefaultHeader = styled(IndexHeader)`
   min-height: 100vh;
@@ -46,15 +48,16 @@ const DefaultHeader = styled(IndexHeader)`
     padding: 15px 32px;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 2px solid #eae8e8;
+    border: 2px solid ${styles.colors.buttonBorder};
     border-radius: 7px;
     ${styles.transDefault};
+    outline: none;
   }
   button:hover {
-    background-color: ${styles.colors.mainHoverGrey};
-    color: ${styles.colors.mainDarkGrey};
+    color: ${styles.colors.mainGold};
     padding: 15px 38px;
     ${styles.transObject({ time: "0.4s" })};
+    cursor: pointer;
   }
   @media (min-width: 769px) and (max-width: 1024px) {
     h1 {

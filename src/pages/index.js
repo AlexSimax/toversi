@@ -2,10 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { HomeHeader } from "../utils"
+import { HomeHeader, BannerButton } from "../utils"
 import img from "../images/WorkspacePrinterDarker.jpg"
 import Navbar from "../components/globals/navbar/Navbar"
 import { PageHeader } from "../utils/"
+import QuickInfo from "../components/HomePageComponents/QuickInfo"
+import Brands from "../components/globals/Brands"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +23,8 @@ const IndexPage = () => (
         <button>Узнать</button>
       </PageHeader>
     </HomeHeader>
+    <QuickInfo />
+    <Brands />
   </Layout>
 )
 
