@@ -23,7 +23,7 @@ const IndexPage = () => (
         <h1>Заправка картриджей в Могилеве</h1>
         <h3>Оперативно и недорого</h3>
         <Link to="/prices">
-          <button>Узнать</button>
+          <button>Цена</button>
         </Link>
       </PageHeader>
     </HomeHeader>

@@ -5,7 +5,7 @@ import styled from "styled-components"
 export default class QuickInfo extends Component {
   render() {
     return (
-      <Section>
+      <Section style={{ marginTop: "3rem" }}>
         <Title
           message="Что мы предлагаем?"
           title="Как мы можем Вам помочь"
@@ -25,7 +25,7 @@ export default class QuickInfo extends Component {
 
 const QuickInfoWrapper = styled.div`
   width: 90%;
-  margin: 2.5rem auto;
+  margin: 2.5rem auto 5rem auto;
   .text {
     line-height: 2rem;
     color: ${styles.colors.mainGrey};

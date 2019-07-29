@@ -5,7 +5,9 @@ export default class Footer extends Component {
   render() {
     return (
       <FooterWrapper>
-        <div>ЧТПУП "Чистовик", 2003 - {new Date().getFullYear()}</div>
+        <div>
+          ЧТПУП "Чистовик", 2003 - {new Date().getFullYear()}, тел. 76-00-76
+        </div>
         <p className="mail">
           Разработано&nbsp;
           <a
@@ -22,8 +24,7 @@ export default class Footer extends Component {
 
 const FooterWrapper = styled.footer`
   padding: 2rem 1rem;
-  /* background: #494949; */
-  background-image: linear-gradient(#898888, #494949);
+  background-image: linear-gradient(to right, black, #137f0b, black);
   color: #d4af37;
   font-size: 0.8rem;
   display: flex;
