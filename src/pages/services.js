@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "../images/Services.jpeg"
 import { PageHeader, HomeHeader } from "../utils"
+import ServiceInfo from "../components/ServicePageComponents/ServiceInfo"
 import Navbar from "../components/globals/navbar"
 
 const ServicePage = () => (
@@ -20,6 +21,7 @@ const ServicePage = () => (
         <button>Узнать</button>
       </PageHeader>
     </HomeHeader>
+    <ServiceInfo />
   </Layout>
 )
 

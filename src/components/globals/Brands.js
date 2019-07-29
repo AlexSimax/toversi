@@ -55,9 +55,9 @@ const BrandsWrapper = styled.section`
   margin: 2.5rem auto;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1%;
+  margin-top: 4%;
   flex-wrap: wrap;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   div {
     padding: 0 7px;
   }
@@ -68,6 +68,13 @@ const BrandsWrapper = styled.section`
   @media (max-width: 1180px) {
     justify-content: flex-start;
     padding-left: 5%;
+    div {
+      padding: 3px 7px;
+    }
+  }
+  @media (max-width: 568px) {
+    justify-content: flex-start;
+    padding-left: 2%;
     div {
       padding: 3px 7px;
     }

@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,6 +8,7 @@ import img from "../images/WorkspacePrinterDarker.jpg"
 import Navbar from "../components/globals/navbar/Navbar"
 import { PageHeader } from "../utils/"
 import QuickInfo from "../components/HomePageComponents/QuickInfo"
+import Gallery from "../components/HomePageComponents/Gallery"
 import Brands from "../components/globals/Brands"
 
 const IndexPage = () => (
@@ -20,10 +22,13 @@ const IndexPage = () => (
       <PageHeader>
         <h1>Заправка картриджей в Могилеве</h1>
         <h3>Оперативно и недорого</h3>
-        <button>Узнать</button>
+        <Link to="/prices">
+          <button>Узнать</button>
+        </Link>
       </PageHeader>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
     <Brands />
   </Layout>
 )
