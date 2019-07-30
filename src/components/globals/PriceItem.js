@@ -21,6 +21,7 @@ export default function PriceItem({ titlePrice, subtitle, price }) {
 }
 const SectionTop = styled.div`
   height: 100px;
+  background: ${styles.colors.mainDarkGrey};
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -53,7 +54,7 @@ const SectionBody = styled.div`
   }
   button {
     color: ${styles.colors.mainWhite};
-    background: transparent;
+    background: ${styles.colors.mainDarkGrey};
     font-size: 18px;
     width: 80%;
     padding: 15px 0;
@@ -63,7 +64,7 @@ const SectionBody = styled.div`
     outline: none;
   }
   button:hover {
-    color: ${styles.colors.mainLightGrey};
+    color: ${styles.colors.mainWhite};
     /* padding: 15px 15px; */
     background: ${styles.colors.mainHoverDarkGrey};
     ${styles.transObject({ time: "0.4s" })};
@@ -75,7 +76,7 @@ const PriceItemWrapper = styled.span`
   width: 33%;
   text-align: center;
   background: #fff;
-  border: 2px solid ${styles.colors.mainDarkGrey};
+  border: 1px solid ${styles.colors.mainDarkGrey};
   margin: 0 1rem;
   /* border: 1px solid gray; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

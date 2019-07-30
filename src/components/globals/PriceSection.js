@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 export default function PriceSection() {
   return (
-    <Section>
+    <Section style={{ marginTop: "4rem", marginBottom: "6rem" }}>
       <Title title="Цена заправки картриджа" message=""></Title>
       <PriceList>
         <PriceItem titlePrice="Лазерный" subtitle="черный" price="10 р." />
