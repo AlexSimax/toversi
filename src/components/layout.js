@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
  body {
    font-family: "Arial";
  }
-#___gatsby .Section-hLnjej .PriceSection__PriceList-fZzOBR span:nth-child(1) .PriceItem__SectionTop-ficolt {
+/* #___gatsby .Section-hLnjej .PriceSection__PriceList-fZzOBR span:nth-child(1) .PriceItem__SectionTop-ficolt {
    background: #5b5b5b;
   }
 
@@ -60,7 +60,7 @@ const GlobalStyle = createGlobalStyle`
   }
 #___gatsby .Section-hLnjej .PriceSection__PriceList-fZzOBR span:nth-child(3) .PriceItem__SectionBody-hDtZMy button {
    background: #8414bc;
-  }
+  } */
 
 `
 

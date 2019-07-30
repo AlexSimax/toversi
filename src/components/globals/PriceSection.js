@@ -2,6 +2,7 @@ import React from "react"
 import PriceItem from "../globals/PriceItem"
 import { Section, Title } from "../../utils"
 import styled from "styled-components"
+import "./stylePrice.css"
 
 export default function PriceSection() {
   return (
