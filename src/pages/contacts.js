@@ -29,7 +29,7 @@ const ContactPage = () => (
       </PageHeader>
     </HomeHeader>
     <ContactSection />
-    <GoogleMap />
+    {/* <GoogleMap /> */}
   </Layout>
 )
 
