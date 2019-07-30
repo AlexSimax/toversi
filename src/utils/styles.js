@@ -7,7 +7,7 @@ export const colors = {
   mainGold: `#D4AF37`,
   mainHoverDarkGrey: `#afaeae`,
   mainHoverGrey: `#ccc`,
-  mainHoverBcgr: `#dee5de`,
+  mainHoverBcgr: `#edf9e0`,
   buttonBorder: `#eae8e8`,
 }
 export const textSlanted = `font-family: 'Roboto'`

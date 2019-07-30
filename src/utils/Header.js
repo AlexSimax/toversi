@@ -23,7 +23,7 @@ const DefaultHeader = styled(IndexHeader)`
   text-align: center;
   color: white;
   text-transform: uppercase;
-  // margin-top: 20%;
+  margin-top: 20%;
   margin: 0 auto;
   padding: 0px 40px;
   h1 {
