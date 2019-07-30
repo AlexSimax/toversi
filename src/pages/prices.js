@@ -7,6 +7,7 @@ import { PageHeader, HomeHeader } from "../utils"
 import Navbar from "../components/globals/navbar"
 import PriceSection from "../components/globals/PriceSection"
 import Brands from "../components/globals/Brands"
+import "../components/globals/stylePrice.css"
 
 const PricePage = () => (
   <Layout>
