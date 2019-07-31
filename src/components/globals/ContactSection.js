@@ -35,17 +35,9 @@ export default function ContactSection() {
     </Section>
   )
 }
-
-// function HomeHeader({ img, children }) {
-//   return <IndexHeader img={img}>{children}</IndexHeader>
-// }
-// function PageHeader({ children }) {
-//   return <DefaultHeader>{children}</DefaultHeader>
-// }
 const QuickInfoWrapper = styled.div`
   width: 90%;
-  height: 90vh;
-  margin: 2.5rem auto 5rem auto;
+  margin: 2.5rem auto 6rem auto;
   text-align: center;
   @media (min-width: 768px) {
     width: 70%;
@@ -54,7 +46,6 @@ const QuickInfoWrapper = styled.div`
     width: 60%;
   }
   .contacts {
-    /* width: 60%; */
     background: url("../../images/Contacts.jpeg") center/cover fixed no-repeat;
     .icons {
       font-size: 3rem;
