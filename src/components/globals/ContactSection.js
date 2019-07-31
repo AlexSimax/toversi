@@ -4,7 +4,6 @@ import styled from "styled-components"
 import { FaPhone } from "react-icons/fa"
 import { FaHome } from "react-icons/fa"
 import { FaEnvelope } from "react-icons/fa"
-// import img from "../../images/Contacts.jpeg"
 
 export default function ContactSection() {
   return (
