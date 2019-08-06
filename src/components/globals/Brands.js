@@ -64,6 +64,7 @@ const BrandsWrapper = styled.section`
   div img {
     -webkit-filter: grayscale(100%) opacity(0.3);
     filter: grayscale(100%) opacity(0.2);
+    /* width: 180px; */
   }
   @media (max-width: 1180px) {
     justify-content: flex-start;

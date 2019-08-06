@@ -4,7 +4,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Cleancopy`,
-    description: `This site was made on GatsbyJS by myself.`,
+    description: `Работаем со всеми типами картриджей`,
     author: `AlexSimax`,
   },
   plugins: [
