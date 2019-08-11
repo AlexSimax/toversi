@@ -1,13 +1,11 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Section404 from "../components/globals/Section404"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>Ничего не найдено. Увы...</h1>
-    <p>Набранный Вами путь не&#39;существует... сожалеем.</p>
+    <Section404 />
   </Layout>
 )
 
