@@ -16,7 +16,7 @@ export default function ContactSection() {
               <FaPhone className="icons" />
               <span>
                 <p>+375 (222) 76-00-76</p>
-                <p>+375 (29) 355-37-20</p>
+                <p>+375 (25) 776-00-76</p>
               </span>
             </div>
             <div className="email">

@@ -13,7 +13,7 @@ export default class NavbarTel extends Component {
         </p>
         <p>
           <span>
-            <i>+375 (29) 355-37-20</i>
+            <i>+375 (25) 776-00-76</i>
           </span>
         </p>
       </TelWrapper>
