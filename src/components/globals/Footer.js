@@ -6,13 +6,13 @@ export default class Footer extends Component {
     return (
       <FooterWrapper>
         <div>
-          ЧТПУП "Чистовик", 2003 - {new Date().getFullYear()},{" "}
-          <p>т. 76-00-76, 8-025-776-00-76</p>
+          ТВ, 2007 - {new Date().getFullYear()},{" "}
+          <p>т. 700-600</p>
         </div>
         <p className="mail">
           Разработано&nbsp;
           <a
-            href="mailto:eurock3@gmail.com?Subject=Посетитель%20cleancopy.by"
+            href="mailto:eurock3@gmail.com?Subject=Посетитель%20toversi.by"
             target="_top"
           >
             <i>AlexSimax</i>

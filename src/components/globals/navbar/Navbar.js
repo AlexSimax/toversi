@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import NavbarLogo from "./NavbarLogo"
-import NavbarTel from "./NavbarTel"
+// import NavbarTel from "./NavbarTel"
 import NavbarMenu from "./NavbarMenu"
 import styled from "styled-components"
 
@@ -17,7 +17,6 @@ export default class Navbar extends Component {
     return (
       <NavWrapper>
         <NavbarLogo handleNavbar={this.handleNavbar} />
-        <NavbarTel />
         <NavbarMenu navbarOpen={this.state.navbarOpen} />
       </NavWrapper>
     )

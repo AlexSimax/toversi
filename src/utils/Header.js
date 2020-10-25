@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import img from "../images/WorkspacePrinterDarker.jpg"
+import img from "../images/Bcgrd.jpg"
 import { styles } from "../utils/"
 
 function HomeHeader({ img, children }) {

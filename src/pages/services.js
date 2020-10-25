@@ -2,14 +2,13 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from "../images/Services.jpeg"
+import Img from "../images/Dub_02.jpg"
 import { PageHeader, HomeHeader } from "../utils"
 import { Link } from "gatsby"
 import ServiceInfo from "../components/ServicePageComponents/ServiceInfo"
-import Navbar from "../components/globals/navbar"
+import Navbar from "../components/globals/navbar/Navbar"
 import WeSale from "../components/ServicePageComponents/WeSale"
 import WeDo from "../components/ServicePageComponents/WeDo"
-import Brands from "../components/globals/Brands"
 
 const ServicePage = () => (
   <Layout>
@@ -30,7 +29,6 @@ const ServicePage = () => (
     <ServiceInfo />
     <WeSale />
     <WeDo />
-    <Brands />
   </Layout>
 )
 

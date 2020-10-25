@@ -2,9 +2,9 @@ import React from "react"
 import Product from "./Product.js"
 import { Section, Title } from "../../utils"
 import styled from "styled-components"
-import sell2 from "../../images/Others/InksStruynie.jpg"
-import sell1 from "../../images/Others/CatrStr1.jpg"
-import sell3 from "../../images/Others/Paper1.jpg"
+import sell2 from "../../images/Ebenovoe_derevo_01.jpg"
+import sell1 from "../../images/Krasnoe_derevo_01.jpg"
+import sell3 from "../../images/Ebenovoe_derevo_01.jpg"
 
 export default function WeSale() {
   return (

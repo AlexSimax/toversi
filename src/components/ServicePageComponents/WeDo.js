@@ -2,9 +2,9 @@ import React from "react"
 import ServiceProducts from "./ServiceProducts.js"
 import { Section, Title } from "../../utils"
 import styled from "styled-components"
-import serv1 from "../../images/Others/3pack_600_600.jpg"
-import serv2 from "../../images/Others/StruynayaZapravka.jpg"
-import serv3 from "../../images/Others/Sams-m2070-1.jpg"
+import serv1 from "../../images/Krasnoe_derevo_01.jpg"
+import serv2 from "../../images/Ebenovoe_derevo_01.jpg"
+import serv3 from "../../images/Krasnoe_derevo_02.jpg"
 
 export default function WeDo() {
   return (

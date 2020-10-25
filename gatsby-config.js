@@ -3,8 +3,8 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: `Cleancopy`,
-    description: `Работаем со всеми типами картриджей`,
+    title: `Birra`,
+    description: `Изделия из фанеры`,
     author: `AlexSimax`,
   },
   plugins: [
@@ -42,7 +42,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/printer-tool.svg`, // This path is relative to the root of the site.
+        icon: `src/images/bottle.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -11,22 +11,12 @@ export default class NavbarMenu extends Component {
       {
         id: 0,
         path: "/",
-        name: "О нас",
+        name: "Варианты",
       },
       {
         id: 1,
         path: "/services",
         name: "Услуги",
-      },
-      {
-        id: 2,
-        path: "/prices",
-        name: "Цены",
-      },
-      {
-        id: 3,
-        path: "/contacts",
-        name: "Контакты",
       },
     ],
   }
