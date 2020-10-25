@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../../images/LogoOk.svg"
+import logo from "../../../images/Logo_Birra.svg"
 import { FaAlignRight } from "react-icons/fa"
 import styled from "styled-components"
 import { styles } from "../../../utils"
@@ -11,7 +11,7 @@ export default class NavbarLogo extends Component {
     return (
       <HeaderWrapper>
         <Link to="/">
-          <img src={logo} alt="Cleancopy" width="150" />
+          <img src={logo} alt="toversi" width="150" />
         </Link>
         <FaAlignRight
           className="toggle-icon"
@@ -30,6 +30,7 @@ const HeaderWrapper = styled.div`
   justify-content: space-between;
   .toggle-icon {
     font-size: 1.75rem;
+    margin-top: 1rem;
     color: ${styles.colors.mainGreen};
     cursor: pointer;
   }
