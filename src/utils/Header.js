@@ -27,11 +27,11 @@ const DefaultHeader = styled(IndexHeader)`
   margin: 0 auto;
   padding: 0px 40px;
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 100;
     letter-spacing: 5px;
     line-height: 1.6;
-    padding-top: 15%;
+    padding-top: 20%;
   }
   h3 {
     padding: 25px 0;
@@ -41,12 +41,14 @@ const DefaultHeader = styled(IndexHeader)`
     color: #eae8e8;
     text-transform: uppercase;
   }
+  .modal {
+  }
   button {
     color: #eae8e8;
     background: transparent;
     font-size: 18px;
     padding: 15px 32px;
-    margin-top: 15px;
+    margin-top: 3rem;
     margin-bottom: 15px;
     border: 2px solid ${styles.colors.buttonBorder};
     border-radius: 7px;
@@ -54,7 +56,9 @@ const DefaultHeader = styled(IndexHeader)`
     outline: none;
   }
   button:hover {
-    color: ${styles.colors.mainGold};
+    color: #9b632a;
+    background: #c3b19d;
+    border-color: #c3b19d;
     padding: 15px 38px;
     ${styles.transObject({ time: "0.4s" })};
     cursor: pointer;
@@ -68,10 +72,10 @@ const DefaultHeader = styled(IndexHeader)`
 
   @media (max-width: 768px) {
     h1 {
-      font-size: 1.6rem;
-      line-height: 1.4;
-      padding-top: 22%;
-      margin-bottom: 6%;
+      font-size: 1.4rem;
+      line-height: 1.8;
+      padding-top: 42%;
+      margin-bottom: 16%;
     }
     h3 {
       margin-bottom: 4%;

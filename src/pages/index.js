@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,7 +10,7 @@ import QuickInfo from "../components/HomePageComponents/QuickInfo"
 import Gallery from "../components/HomePageComponents/Gallery"
 
 const IndexPage = () => (
-  <Layout> 
+  <Layout>
     <SEO
       title="Карта Бирра"
       keywords={[`Изделия из фанеры`, `Могилев`, `Карта Бирра`]}
@@ -21,10 +20,8 @@ const IndexPage = () => (
       <PageHeader>
         <h1>Собери свою уникальную пивную карту!</h1>
         {/* <h3>Собери свою уникальную пивную карту!</h3> */}
-        
-        <Link to="/prices">
-          <button>Перейти к оплате</button>
-        </Link>
+
+        <button className="modal">Перейти к оплате</button>
       </PageHeader>
     </HomeHeader>
     <QuickInfo />

@@ -1,8 +1,9 @@
 import React, { Component } from "react"
 import NavbarLogo from "./NavbarLogo"
 // import NavbarTel from "./NavbarTel"
-import NavbarMenu from "./NavbarMenu"
+import NavbarSoc from "./NavbarSoc"
 import styled from "styled-components"
+import NavbarSocials from "./NavbarSoc"
 
 export default class Navbar extends Component {
   state = {
@@ -17,18 +18,16 @@ export default class Navbar extends Component {
     return (
       <NavWrapper>
         <NavbarLogo handleNavbar={this.handleNavbar} />
-        <NavbarMenu navbarOpen={this.state.navbarOpen} />
+        <NavbarSocials />
       </NavWrapper>
     )
   }
 }
 
 const NavWrapper = styled.nav`
-  @media (min-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     transparent;
 `

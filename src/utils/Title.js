@@ -7,7 +7,7 @@ export function Title({ title, message }) {
     <TitleWrapper>
       <h3 className="message">{message}</h3>
       <h1 className="title">{title}</h1>
-      <div className="underline"></div>
+      {/* <div className="underline"></div> */}
     </TitleWrapper>
   )
 }
