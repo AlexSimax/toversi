@@ -6,20 +6,19 @@ export default function Product({ title, image, message }) {
   return (
     <ProductWrapper>
       <Section />
-      <h1 className="title">{title}</h1>
+      {/* <h1 className="title">{title}</h1> */}
       <img src={image} className="images" />
-      <h3 className="message">{message}</h3>
+      {/* <h3 className="message">{message}</h3> */}
     </ProductWrapper>
   )
 }
 
 const ProductWrapper = styled.span`
-  padding: 0 1.3rem 1.7rem 1.3rem;
-  width: 33%;
+  /* padding: 0 1.3rem 1.7rem 1.3rem; */
+  width: 40%;
   text-align: center;
   background: #fff;
-  margin: 0 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
   .title {
     line-height: 2rem;
     font-size: 1.5rem;
@@ -43,11 +42,11 @@ const ProductWrapper = styled.span`
       line-height: 1.5rem;
     }
     .message {
-      text-align: left;
+      /* text-align: left; */
     }
   }
   @media (max-width: 660px) {
-    width: 99%;
-    margin: 0 auto 1.8rem auto;
+    width: 90%;
+    margin: 0 12% 0 0;
   }
 `
