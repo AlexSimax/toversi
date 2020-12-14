@@ -103,6 +103,7 @@ const GalleryWrapper = styled.div`
   grid-row-gap: 1rem;
   .item {
     position: relative;
+    transition: all 0.3s linear;
   }
   .info {
     position: absolute;
@@ -110,6 +111,9 @@ const GalleryWrapper = styled.div`
     left: 0;
     background: ${styles.colors.mainGold};
     padding: 0.1rem 0.3rem;
+  }
+  .item:hover {
+    transform: scale(1.03);
   }
   @media (min-width: 576px) {
     grid-template-columns: 1fr 1fr;

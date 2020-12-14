@@ -12,7 +12,7 @@ export default class QuickInfo extends Component {
             умницы.Мы офигенно классные и вообще умницы. Мы офигенно классные и
             вообще умницы. Мы офигенно классные и вообще умницы.
           </p>
-          <Title message="Варианты расцветок" title=""></Title>
+          <Title message="Беларусь" title=""></Title>
         </QuickInfoWrapper>
       </Section>
     )

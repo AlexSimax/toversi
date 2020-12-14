@@ -21,11 +21,20 @@ export default class IndexPage extends Component {
           <HomeHeader img={img}>
             <Navbar />
             <PageHeader>
-              <h1>Собери свою уникальную пивную карту!</h1>
-              {/* <h3>Собери свою уникальную пивную карту!</h3> */}
+              <h1 className="h1">
+                Собери свою пивную карту
+                <div>
+                  <ul className="h1__ul">
+                    <li className="h1__ul_li">Беларуси</li>
+                    <li className="h1__ul_li">России</li>
+                    <li className="h1__ul_li">МКАД</li>
+                    <li className="h1__ul_li">Беларуси</li>
+                  </ul>
+                </div>
+              </h1>
 
               <Link to="/pay">
-                <button>Перейти к оплате</button>
+                <button>Перейти</button>
               </Link>
             </PageHeader>
           </HomeHeader>

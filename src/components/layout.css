@@ -9,3 +9,20 @@
 body {
   font-family: "Arial";
 }
+:root {
+  --primary-1: #fff9f3;
+  --primary-2: #e9ddce;
+  --primary-3: #c3b19d;
+  --primary-4: #a28d74;
+  --primary-5: #7f684f;
+  --blue-1: #bebfc5;
+  --blue-2: #9092a0;
+  --blue-3: #6f7286;
+  --blue-4: #54586f;
+  --blue-5: #3a3e57;
+  --green-1: #c2cbc6;
+  --green-2: #94a89c;
+  --green-3: #718c7c;
+  --green-4: #537561;
+  --green-5: #395b47;
+}

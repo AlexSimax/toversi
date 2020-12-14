@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components"
+import "../layout.css"
 
 export default class Footer extends Component {
   render() {
@@ -24,8 +25,8 @@ export default class Footer extends Component {
 
 const FooterWrapper = styled.footer`
   padding: 2rem 1rem;
-  background: #c3b19d;
-  color: #9b632a;
+  background: var(--primary-5);
+  color: var(--green-2);
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
