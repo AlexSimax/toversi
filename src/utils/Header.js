@@ -32,22 +32,38 @@ const DefaultHeader = styled(IndexHeader)`
     font-size: 2.2rem;
     font-weight: 100;
     letter-spacing: 5px;
-    line-height: 1.6;
-    padding-top: 20%;
+    line-height: 2;
+    padding-top: 15%;
     color: #c3b19d;
     width: 100%;
     justify-content: center;
     text-align: center;
   }
-  .h1 div {
+  .second_h1 {
     position: relative;
+    display: flex;
+    font-size: 2.2rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 2;
+    color: #c3b19d;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .second_h1 span {
+    padding-right: 180px;
+  }
+  .div__absolute {
+    position: absolute;
+    left: 48%;
     height: 60px;
     width: auto;
     overflow: hidden;
   }
-  .h1 div ul {
+  .div__absolute ul {
     margin: -120px 8% 10px 7%;
-    padding-right: 8px;
+    padding-right: 10px;
     text-align: left;
     animation: up 10s linear infinite;
   }
@@ -74,7 +90,7 @@ const DefaultHeader = styled(IndexHeader)`
       transform: translateY(120px);
     }
   }
-  .h1 div ul li {
+  .div__absolute ul li {
     list-style-type: none;
     height: 60px;
     color: var(--green-1);
@@ -93,7 +109,7 @@ const DefaultHeader = styled(IndexHeader)`
     background: transparent;
     font-size: 18px;
     padding: 15px 32px;
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-bottom: 15px;
     border: 2px solid ${styles.colors.buttonBorder};
     border-radius: 7px;
@@ -108,30 +124,57 @@ const DefaultHeader = styled(IndexHeader)`
     ${styles.transObject({ time: "0.4s" })};
     cursor: pointer;
   }
-  /* h1 {  // old version
-    font-size: 2.2rem;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 1.6;
-    padding-top: 20%;
-    color: #c3b19d;
-  } */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    h1 {
-      font-size: 1.8rem;
-      line-height: 1.4;
-    }
-  }
 
   @media (max-width: 768px) {
-    h1 {
-      font-size: 1.4rem;
+    .h1 {
       line-height: 1.8;
-      padding-top: 42%;
-      margin-bottom: 16%;
+      padding-top: 20%;
     }
     h3 {
       margin-bottom: 4%;
+    }
+  }
+  @media (max-width: 610px) {
+    .h1 {
+      font-size: 1.6rem;
+      line-height: 1.8;
+      padding-top: 40%;
+    }
+    .second_h1 {
+      font-size: 1.6rem;
+    }
+    .second_h1 span {
+      padding-right: 150px;
+    }
+  }
+  @media (max-width: 495px) {
+    .h1 {
+      font-size: 1.3rem;
+      line-height: 3;
+      padding-top: 35%;
+    }
+    .second_h1 {
+      font-size: 1.3rem;
+    }
+    .second_h1 span {
+      padding-right: 130px;
+    }
+  }
+  @media (max-width: 427px) {
+    .h1 {
+      font-size: 1.3rem;
+      line-height: 3;
+      padding-top: 30%;
+    }
+    .second_h1 {
+      font-size: 1.3rem;
+    }
+    .second_h1 span {
+      padding-right: 130px;
+      padding-top: 8px;
+    }
+    .div__absolute {
+      top: 8px;
     }
   }
 `

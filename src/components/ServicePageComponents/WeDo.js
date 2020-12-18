@@ -36,10 +36,8 @@ const ProductList = styled.div`
   display: flex;
   justify-content: space-between;
   @media (max-width: 660px) {
-    /* display: block; */
     flex-direction: column;
     align-items: center;
     margin: 2rem auto;
-    /* width: auto; */
   }
 `

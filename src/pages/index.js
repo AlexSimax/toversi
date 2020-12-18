@@ -22,8 +22,11 @@ export default class IndexPage extends Component {
             <Navbar />
             <PageHeader>
               <h1 className="h1">
-                Собери свою пивную карту
-                <div>
+                Собери свою пивную <br />
+              </h1>
+              <div class="second_h1">
+                <span>карту</span>
+                <div className="div__absolute">
                   <ul className="h1__ul">
                     <li className="h1__ul_li">Беларуси</li>
                     <li className="h1__ul_li">России</li>
@@ -31,8 +34,7 @@ export default class IndexPage extends Component {
                     <li className="h1__ul_li">Беларуси</li>
                   </ul>
                 </div>
-              </h1>
-
+              </div>
               <Link to="/pay">
                 <button>Перейти</button>
               </Link>
