@@ -35,9 +35,9 @@ export default class IndexPage extends Component {
                   </ul>
                 </div>
               </div>
-              <Link to="/pay">
+              {/* <Link to="/pay">
                 <button>Перейти</button>
-              </Link>
+              </Link> */}
             </PageHeader>
           </HomeHeader>
           <QuickInfo />

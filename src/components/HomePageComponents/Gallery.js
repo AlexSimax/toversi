@@ -82,40 +82,54 @@ export default function Gallery() {
         return (
           <Section>
             <GalleryWrapper>
-              <div className="item item-1">
-                <Link to="/">
+              <Link to="/carta">
+                <div className="item item-1">
                   <Img fluid={img1} />
                   <p className="info">Неокрашенное. 74р.</p>
-                </Link>
-              </div>
-              <div className="item item-2">
-                <Img fluid={img2} />
-                <p className="info">Дуб. 85р.</p>
-              </div>
-              <div className="item item-3">
-                <Img fluid={img3} />
-                <p className="info">Дуб-шоколад. 85р.</p>
-              </div>
-              <div className="item item-4">
-                <Img fluid={img4} />
-                <p className="info">Эбеновое дерево. 85р.</p>
-              </div>
-              <div className="item item-5">
-                <Img fluid={img5} />
-                <p className="info">Красное дерево. 85р.</p>
-              </div>
-              <div className="item item-6">
-                <Img fluid={img6} />
-                <p className="info">Орех. 85р.</p>
-              </div>
-              <div className="item item-3">
-                <Img fluid={img3} />
-                <p className="info">Мокка. 85р.</p>
-              </div>
-              <div className="item item-4">
-                <Img fluid={img4} />
-                <p className="info">Полисандр. 85р.</p>
-              </div>
+                </div>
+              </Link>
+              <Link to="/carta-dub">
+                <div className="item item-2">
+                  <Img fluid={img2} />
+                  <p className="info">Дуб. 85р.</p>
+                </div>
+              </Link>
+              <Link to="/carta-dub-shokolad">
+                <div className="item item-3">
+                  <Img fluid={img3} />
+                  <p className="info">Дуб-шоколад. 85р.</p>
+                </div>
+              </Link>
+              <Link to="/carta-ebenovoe-derevo">
+                <div className="item item-4">
+                  <Img fluid={img4} />
+                  <p className="info">Эбеновое дерево. 85р.</p>
+                </div>
+              </Link>
+              <Link to="/carta-krasnoe-derevo">
+                <div className="item item-5">
+                  <Img fluid={img5} />
+                  <p className="info">Красное дерево. 85р.</p>
+                </div>
+              </Link>
+              <Link to="/carta-oreh">
+                <div className="item item-6">
+                  <Img fluid={img6} />
+                  <p className="info">Орех. 85р.</p>
+                </div>
+              </Link>
+              <Link to="/carta-mokka">
+                <div className="item item-3">
+                  <Img fluid={img3} />
+                  <p className="info">Мокка. 85р.</p>
+                </div>
+              </Link>
+              <Link to="/carta-polysandr">
+                <div className="item item-4">
+                  <Img fluid={img4} />
+                  <p className="info">Полисандр. 85р.</p>
+                </div>
+              </Link>
             </GalleryWrapper>
           </Section>
         )
@@ -128,6 +142,9 @@ const GalleryWrapper = styled.div`
   display: grid;
   grid-template-columns: auto;
   grid-row-gap: 1rem;
+  a {
+    color: black;
+  }
   .item {
     position: relative;
     transition: all 0.3s linear;
@@ -154,17 +171,5 @@ const GalleryWrapper = styled.div`
     .gatsby-image-wrapper {
       height: 100%;
     }
-    /* grid-template-areas:
-      "one one two two"
-      "one one three three"; */
-    /* .item-1 {
-      grid-area: one;
-    }
-    .item-2 {
-      grid-area: two;
-    }
-    .item-3 {
-      grid-area: three;
-    } */
   }
 `

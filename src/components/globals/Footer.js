@@ -24,9 +24,9 @@ export default class Footer extends Component {
 }
 
 const FooterWrapper = styled.footer`
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   background: var(--primary-5);
-  color: var(--green-2);
+  color: #a28d74;
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
