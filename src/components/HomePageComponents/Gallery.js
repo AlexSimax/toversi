@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
 import { styles, Section } from "../../utils"
@@ -82,8 +83,10 @@ export default function Gallery() {
           <Section>
             <GalleryWrapper>
               <div className="item item-1">
-                <Img fluid={img1} />
-                <p className="info">Неокрашенное. 74р.</p>
+                <Link to="/">
+                  <Img fluid={img1} />
+                  <p className="info">Неокрашенное. 74р.</p>
+                </Link>
               </div>
               <div className="item item-2">
                 <Img fluid={img2} />
